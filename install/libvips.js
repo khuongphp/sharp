@@ -84,7 +84,7 @@ try {
         if (err) {
           fail(err);
         } else if (response.statusCode === 404) {
-          fail(new Error(`Prebuilt libvips binaries are not yet available for ${platformAndArch}`));
+          fail(new Error(`Prebuilt libvips ${minimumLibvipsVersion} binaries are not yet available for ${platformAndArch}`));
         } else if (response.statusCode !== 200) {
           fail(new Error(`Status ${response.statusCode} ${response.statusMessage}`));
         } else {

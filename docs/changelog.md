@@ -1,5 +1,14 @@
 # Changelog
 
+### v0.24 - "*wit*"
+
+Requires libvips v8.9.0.
+
+#### v0.24.0 - TBD
+
+* Drop support for Node.js 8.
+  [#1910](https://github.com/lovell/sharp/issues/1910)
+
 ### v0.23 - "*vision*"
 
 Requires libvips v8.8.1.
